@@ -1,1 +1,17 @@
-vmess://eyJhZGQiOiJuMS54eGNuYi5zaXRlIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ0b2JlLnZpcC53ZWliby5jb20iLCJpZCI6IjE4ZDhjYzQ2LTdhYzAtNGVlMS1hMGUyLWY5NjdlYmZmZjMxNCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMjEiLCJwcyI6ImNwZeaQreW7uiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
+proxies:
+  - name: "Aliyun-JP-FQ-C"
+    type: vless
+    server: 8.221.140.71
+    port: 10583
+    uuid: 4f22af4b-def7-4680-9e01-cca8a537da5c
+    encryption: none
+    flow: xtls-rprx-vision
+    security: reality
+    sni: aws.com
+    fp: random
+    pbk: i1TUGF244LnWY17nPfNk9Mj0oOcY2G7iT6LVnuXdmBQ
+    sid: 885e434eacf9060c
+    spx: "/"
+    type: tcp
+    headerType: none
+    name: "Aliyun-JP-FQ-C"
